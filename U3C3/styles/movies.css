@@ -1,0 +1,21 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.innerBox{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+}
+img{
+    height: 300px;
+    width: 100%;
+}
+#movies{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
